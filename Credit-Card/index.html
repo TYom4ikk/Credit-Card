@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Кредитная карта</title>
+</head>
+<body>
+    <div id="cards">
+        <section class="front">
+            <section class="card-header">
+                <img src="assets/img/Chip.png" alt="Chip.png">
+                <h1>ЕМК Bank</h1>
+            </section>
+            <section class="card-main">
+                <section class="number">
+                    <input type="text" placeholder="XXXX">
+                    <input type="text" placeholder="XXXX">
+                    <input type="text" placeholder="XXXX">
+                    <input type="text" placeholder="XXXX">
+                </section>
+                <section class="date">
+                    <p>VALID THRU</p>
+                    <select name="mounth" id="">
+                        <option value="01">01</option>
+                    </select>
+                    <select name="year" id="">
+                        <option value="01">01</option>
+                    </select>
+                </section>
+            </section>
+            <section class="card-footer">
+                <input type="text" placeholder="CARDHOLDER NAME">
+            </section>
+        </section>
+
+
+        <section class="back">
+            <section class="line"></section>
+            <section class="cvv">
+                <p>XXXX</p>
+                <input type="text"
+                placeholder="XXX">
+            </section>
+        </section>
+
+    </div>
+    <script src="assets/scripts/index.js"></script>
+</body>
+</html>

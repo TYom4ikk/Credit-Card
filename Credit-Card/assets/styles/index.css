@@ -9,6 +9,9 @@
     height: 100vh;
     background: yellow;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #cards .back{
@@ -55,4 +58,45 @@
 #cards img{
     height: 50px;
     width: 60px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-header h1{
+    margin-left: 40%;
+    color: aliceblue;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.number input{
+    width: 70px;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 30%;
+}
+
+.date p{
+    color: aliceblue;
+    font-size: 80%;
+}
+
+.card-footer{
+    margin: 20px 0 0 10px;
+}
+
+.card-header img{
+    margin-left: 20px;
 }
